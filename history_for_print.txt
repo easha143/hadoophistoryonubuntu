@@ -1,0 +1,51 @@
+    1  sudo apt update 
+    2  sudo apt upgrade -y
+    3  sudo apt purge openjdk*
+    4  sudo add-apt-repository -y ppa:webupd8team/java
+    5  sudo apt update 
+    6  sudo apt install -y oracle-java8-installer
+    7  java -version 
+    8  sudo nano /etc/profile
+    9  source /etc/profile 
+   10  sudo editor /etc/sysctl.conf
+   11  sudo reboot 
+   12  sudo addgroup hadoopuser
+   13  sudo adduser -ingroup hadoopgroup hadoopuser 
+   14  sudo apt install ssh 
+   15  sudo systemctl enable ssh
+   16  sudo systemctl start ssh
+   17  su - hadoopuder 
+   18  su - hadoopuser 
+   19  su - hadoopuser
+   20  su  hadoopuser
+   21  sudo adduser -ingroup hadoopgroup hadoopuser
+   22  sudo addgroup hadoopgroup
+   23  jps
+   24  su - hadoopsuer
+   25  su - hadoopuser
+   26  cd downloads 
+   27  cd Downloads 
+   28  ls 
+   29  cd 
+   30  cd /home/hadoopuser
+   31  ls
+   32  ls 
+   33  mkdir MapReduceTutorial
+   34  sudo mkdir MapReduceTutorial
+   35  ls
+   36  cd 
+   37  ls
+   38  hadoopuser 
+   39  sudo snap install pycharm-community --classic
+   40  wget https://repo.anaconda.com/archive/Anaconda3-5.2.0-Linux-x86_64.sh
+   41  bash Anaconda3-5.2.0-Linux-x86_64.sh
+   42  nano .bashrc
+   43  source .bashrc
+   44  nano .bashrc
+   45  y
+   46  source .bashrc
+   47  nano .bashrc
+   48  source .bashrc
+   49  jupyter notebook
+   50  su hadoopuser 
+   51  history > history_for_print.txt
